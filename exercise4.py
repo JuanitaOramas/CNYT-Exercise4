@@ -1,5 +1,7 @@
 from MATRIX-VECTOR-LIBRARY import *
 
+
+#PROGRAMMING CHALLENGES
 def probability (pos,v):
     a=normVector(v[pos])
     b=normVector(v)
@@ -14,6 +16,7 @@ def stateVectorClick(a,b,c):
         b=prodMv(a,b)
         i+=1
     return b[0]
+
 def VectorProduct(v,v1):
     answer = 0 
     for i in range(len(v)):
