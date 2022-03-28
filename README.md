@@ -9,7 +9,7 @@
 * Matplotlib and numpy libraries
 * Git
 
-##  PRIMER SISTEMA CUÁNTICO DESCRITO EN LA SECCIÓN 4.1.
+##  FIRST QUANTUM SYSTEM DESCRIBED IN SECTION 4.1.
 
 Exercise 4.3.1 Find all the possible states the system described in Exercise 4.2.2 can transition into after a measurement has been carried out.
 
