@@ -2,20 +2,23 @@ from MATRIX-VECTOR-LIBRARY import *
 
 
 #PROGRAMMING CHALLENGES
+
 def probability (pos,v):
     a=normVector(v[pos])
     b=normVector(v)
     probability=(a/b)
     return probability*100
-  
 
-def stateVectorClick(a,b,c):
-    b=[b]
-    i=0
-    while i<c:
-        b=prodMv(a,b)
-        i+=1
-    return b[0]
+def ProbabilityofPassing(v,v1):
+    aux = [(0,0)] * len(v) 
+    for i in range (len(v)):
+        aux[j] = conjugate(v1[i])
+    answer = (0,0)
+    for j in range(len(v) ):
+        answer = sumcplx(answer , multicplx(v[j],aux[j]))
+    return answer
+
+
 
 def VectorProduct(v,v1):
     answer = 0 
