@@ -1,9 +1,19 @@
+from MATRIX-VECTOR-LIBRARY import *
+
 def probability (pos,v):
     a=normVector(v[pos])
     b=normVector(v)
     probability=(a/b)
     return probability*100
   
+
+def stateVectorClick(a,b,c):
+    b=[b]
+    i=0
+    while i<c:
+        b=prodMv(a,b)
+        i+=1
+    return b[0]
 def VectorProduct(v,v1):
     answer = 0 
     for i in range(len(v)):
