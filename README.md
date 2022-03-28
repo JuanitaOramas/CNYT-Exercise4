@@ -35,7 +35,7 @@ The instructions to use this library step by step.
 2. Use the following command to copy the repository
     - Use the following command to copy the repository with the URL you already copy from Github.
       ```
-      git clone https://github.com/JuanitaOramas/CNYT-CLASSICAL-TO-QUANTUM-LIBRARY.git
+      git clone https://github.com/JuanitaOramas/CNYT-Exercise4.git
       ```
     - Then the repository will be in your new folder ready to use it.
 
