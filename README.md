@@ -21,6 +21,23 @@ Exercise 4.4.1 Verify that are unitary matrices. Multiply them and verify that t
 Exercise 4.4.2 Go back to Example 3.3.2 (quantum billiard ball), keep the same initial state vector [1, 0, 0, 0]T, but change the unitary map to
 
 
+### Installing
+
+The instructions to use this library step by step.
+
+1. Copy the link of the repository:
+    - Get into the main git of the repository.
+    - Copy the URL of the repository by clicking the code button and copy button.
+    - Create a folder where you want to save the repository and open it.
+    - Right click in the folder and use the option "Git Bash Here".
+    - Right click in the folder and use the option "Git Bash Here".
+
+2. Use the following command to copy the repository
+    - Use the following command to copy the repository with the URL you already copy from Github.
+      ```
+      git clone https://github.com/JuanitaOramas/CNYT-CLASSICAL-TO-QUANTUM-LIBRARY.git
+      ```
+    - Then the repository will be in your new folder ready to use it.
 
 
 ## Authors
