@@ -5,8 +5,8 @@ import numpy as np
  from MATRIX-VECTOR-LIBRARY import *
 
 
-def probability(pos, v):
-    a = normVector(v[pos])
+def probability(i, v):
+    a = normVector(v[i])
     b = normVector(v)
     probability = (a / b)
     return probability * 100
@@ -27,7 +27,7 @@ def possibleProbability(posicion, index):
               [(1, 0), (0, 0)]]
     answer = []
     for i in range((index * 2) - 2, index * 2):
-        if probability(posicion, states[i]) != 0.0:
+        if probability(posicion, states[i]) != 0:
             answer += states[i]
     return answer
 
@@ -58,7 +58,7 @@ def probabilityEigenValue(posicion, index):
 
 
 def verificarUnitarias(u1, u):
-    if unitMatrix(m)(U1) and unitMatrix(m)(u):
+    if unitMatrix(m)(u1) and unitMatrix(m)(u):
         answer = matrixProduct(u1, u)
         return unitMatrix(answer)
 
